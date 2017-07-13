@@ -6,6 +6,7 @@ RUN apk --no-cache --update add \
     curl-dev \
     libpng-dev \
     libjpeg-turbo-dev \
+    libmcrypt-dev \
     freetype-dev && \
     rm -rf /tmp/* && \
     rm -rf /var/cache/apk/*
@@ -42,6 +43,7 @@ RUN docker-php-ext-install json \
     iconv \
     xml  \
     phar \
+    mcrypt \
     gd
 
 # Install Composer.
