@@ -37,6 +37,8 @@ RUN docker-php-ext-install json \
     dom \
     mbstring \
     zip \
+    mysql \
+    mysqli \
     pdo \
     pdo_mysql \
     curl \
