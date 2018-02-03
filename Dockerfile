@@ -7,6 +7,8 @@ RUN apk --no-cache --update add \
     libpng-dev \
     libjpeg-turbo-dev \
     libmcrypt-dev \
+    git \
+    openssh \
     freetype-dev && \
     rm -rf /tmp/* && \
     rm -rf /var/cache/apk/*
